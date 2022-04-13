@@ -27,6 +27,11 @@ public class Enemy : MonoBehaviour, ITakenDamage
 
     public bool IsGong;
 
+    public bool Iscohesion;
+    public Transform Fowl;
+
+    public float AddSpeed;
+
 
     public AIDestinationSetter aIDestinationSetter;
 
@@ -51,6 +56,31 @@ public class Enemy : MonoBehaviour, ITakenDamage
         timeBtwHurt -= Time.deltaTime;
         if (timeBtwHurt <= 0)
             sp.material.SetFloat("_FlashAmount", 0);
+
+        if (Iscohesion)
+        {
+            if (Fowl == null)
+                return;
+            if(Vector2.Distance(transform.position, Fowl.position) <= 0.5f)
+            {
+                aIDestinationSetter.target = Player;
+                Iscohesion = false;
+                IsGong=true;
+            }
+        }
+
+        if (IsGong)
+        {
+            //自动更新寻路点
+            if (Vector2.Distance(transform.position, Player.position) <= 1f)
+            {
+                GetComponent<AIPath>().maxSpeed = 1;
+            }
+            else
+            {
+                GetComponent<AIPath>().maxSpeed = AddSpeed;
+            }
+        }
 
         if (IsGong)
             return;
@@ -95,5 +125,14 @@ public class Enemy : MonoBehaviour, ITakenDamage
         yield return new WaitForSeconds(0.2f);
         isAttack = false;
     }
+
+    public void Gensu(Transform Niao)
+    {
+        Fowl = Niao;
+        Iscohesion = true;
+        aIDestinationSetter.target = Fowl;
+        GetComponent<AIPath>().maxSpeed = AddSpeed;
+    }
+
 
 }
