@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
     [HideInInspector] public float moveH, moveV;
-    [SerializeField] private float moveSpeed;
+     public float moveSpeed;
 
     private void Start()
     {

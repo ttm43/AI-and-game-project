@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E77D93A8-9232-CD01-4CD5-BC91864AAD91}</ProjectGuid>
+    <ProjectGuid>{16F7AEAB-CB3D-1D73-0D48-448057DCB02D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AstarPathfindingProjectEditor</AssemblyName>
@@ -299,22 +299,22 @@
  <HintPath>D:/Course/games and ai/Unity/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>D:/Course/games and ai/A1-scripts/FinalVersion/Project_Slash/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>D:/Course/games and ai/新建文件夹/Project_Slash Slash 完整版/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>D:/Course/games and ai/A1-scripts/FinalVersion/Project_Slash/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>D:/Course/games and ai/新建文件夹/Project_Slash Slash 完整版/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>D:/Course/games and ai/A1-scripts/FinalVersion/Project_Slash/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>D:/Course/games and ai/新建文件夹/Project_Slash Slash 完整版/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>D:/Course/games and ai/A1-scripts/FinalVersion/Project_Slash/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>D:/Course/games and ai/新建文件夹/Project_Slash Slash 完整版/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>D:/Course/games and ai/A1-scripts/FinalVersion/Project_Slash/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>D:/Course/games and ai/新建文件夹/Project_Slash Slash 完整版/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>D:/Course/games and ai/A1-scripts/FinalVersion/Project_Slash/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>D:/Course/games and ai/新建文件夹/Project_Slash Slash 完整版/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/Course/games and ai/Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -665,26 +665,26 @@
  <HintPath>D:/Course/games and ai/Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/Course/games and ai/A1-scripts/FinalVersion/Project_Slash/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/Course/games and ai/新建文件夹/Project_Slash Slash 完整版/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/Course/games and ai/A1-scripts/FinalVersion/Project_Slash/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Course/games and ai/新建文件夹/Project_Slash Slash 完整版/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>D:/Course/games and ai/A1-scripts/FinalVersion/Project_Slash/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>D:/Course/games and ai/新建文件夹/Project_Slash Slash 完整版/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>D:/Course/games and ai/A1-scripts/FinalVersion/Project_Slash/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>D:/Course/games and ai/新建文件夹/Project_Slash Slash 完整版/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{CBF86D8C-02ED-D02C-D32E-BA4843271F17}</Project>
+      <Project>{058678F0-E3BE-BE06-4CAE-79CD78AF4F10}</Project>
       <Name>AstarPathfindingProject</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{CE100A6F-9678-39B7-6ABD-F4609C665103}</Project>
+      <Project>{259CCF0F-1915-78ED-EB96-9F1A848DFE6F}</Project>
       <Name>PackageToolsEditor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>

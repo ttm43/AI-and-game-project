@@ -49,6 +49,7 @@ public class Wizard : MonoBehaviour, ITakenDamage
         timeBtwHurt -= Time.deltaTime;
         if (timeBtwHurt <= 0)
             sp.material.SetFloat("_FlashAmount", 0);
+       
     }
 
     //MARKER This function will be called inside Animation Certain FRAME
@@ -89,6 +90,7 @@ public class Wizard : MonoBehaviour, ITakenDamage
 
     private void Flip()
     {
+
         if (transform.position.x < target.position.x)
             transform.eulerAngles = new Vector3(0, 0, 0);
         if (transform.position.x > target.position.x)
